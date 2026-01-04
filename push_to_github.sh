@@ -17,9 +17,9 @@ git add .
 # Initial commit
 git commit -m "Initial commit: Deploying Meeting Summarizer with Glassmorphism UI"
 
-# Push to main branch
+# Push to main branch (force overwrite to replace the existing 'TXT' file)
 git branch -M main
-git push -u origin main
+git push -u origin main --force
 
 echo "------------------------------------------------"
 echo "✅ Project files have been pushed to GitHub!"
